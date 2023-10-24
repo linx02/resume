@@ -1,0 +1,6 @@
+.profile {
+    background-image: url('../images/profile.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50vw;
+}

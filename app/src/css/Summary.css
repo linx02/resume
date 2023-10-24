@@ -1,0 +1,73 @@
+.summary {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0), black 5%, black 95%, rgba(0, 0, 0, 0));
+    height: 100%;
+    width: 45vw;
+    margin-left: 5vw;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.summary--container {
+    margin: 0 5rem;
+}
+
+.summary--name {
+    font-size: 3rem;
+}
+
+.summary--title {
+    font-size: 1.5rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.summary--description {
+    margin-top: 1rem;
+    color: gray;
+    margin-bottom: 2rem;
+    width: 100%;
+}
+
+.summary--contact {
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: .75rem;
+    border: 1.75px solid white;
+    border-radius: 2rem;
+    margin-right: 1rem;
+}
+
+.summary--cv {
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: .75rem;
+    border: 1.75px solid white;
+    border-radius: 2rem;
+}
+
+.summary--contact:hover, .summary--cv:hover {
+    cursor: pointer;
+}
+
+.summary--cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.summary--projects-title {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.summary--projects-title::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 0.05rem;
+    background-color: white;
+    margin-bottom: 1rem;
+}

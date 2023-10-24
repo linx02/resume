@@ -1,0 +1,36 @@
+.card {
+    width: 16vw;
+    border-radius: 2rem;
+    overflow: hidden;
+    background-color: var(--blue);
+}
+
+.card--img {
+    width: 100%;
+    object-fit: contain;
+    object-position: center;
+}
+
+.card--title {
+    font-size: 1.5vw;
+    font-weight: 500;
+    margin: 0 .5rem;
+}
+
+.card--description {
+    margin: 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: gray;
+    margin-top: 0.5rem;
+    height: 2rem;
+    width: 90%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+  
+.card--link {
+    text-decoration: none;
+    color: white;
+}
