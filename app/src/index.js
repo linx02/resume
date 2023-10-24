@@ -24,6 +24,17 @@ root.render(
           <Summary />
           <Profile />
         </div>
+        <div className="container--tech-stack scroll-point">
+          <div className="tech-stack--header">
+            <h2 className="tech-stack--title">My Tech Stack</h2>
+
+          </div>
+        </div>
+        <div className="container--recent-work scroll-point">
+          <div className="recent-work--header">
+            <h2 className="recent-work--title">Recent Work</h2>
+          </div>
+        </div>
     </main>
   </React.StrictMode>
 );

@@ -38,12 +38,12 @@ export default function Nav() {
     }
 
     return (
-        <nav>
+        <nav className="scroll-point">
             <ul>
-                <li className='nav--logo' onMouseEnter={mouseLogoOver} onMouseLeave={mouseLogoLeave}>Linus Elvius</li>
-                <li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Resume <div className="border"></div></li>
-                <li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Skills <div className="border"></div></li>
-                <li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Projects <div className="border"></div></li>
+                <li className='nav--logo' onMouseEnter={mouseLogoOver} onMouseLeave={mouseLogoLeave}>Linus</li>
+                <li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Resume<div className="border"></div></li>
+                <li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Tech Stack<div className="border"></div></li>
+                <li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Recent Work<div className="border"></div></li>
             </ul>
         </nav>
     )
