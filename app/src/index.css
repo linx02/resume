@@ -1,16 +1,5 @@
-body, html {
-  scroll-snap-type: mandatory;
-  scroll-snap-points-y: repeat(100vh);
-  scroll-snap-type: y mandatory;
-}
-
-.scroll-point {
-  scroll-snap-align: start; /* This will snap the start (top) of the container to the viewport */
-}
-
-
 .container--main {
-  height: 87.4vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   justify-content: center;
@@ -38,10 +27,11 @@ body, html {
 .tech-stack--title {
   font-size: 3rem;
   color: white;
-  margin: 2rem 0;
+  margin: 5rem 0;
 }
 
 .recent-work--header {
   font-size: 3rem;
   color: white;
+  margin: 5rem 0;
 }

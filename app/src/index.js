@@ -20,17 +20,18 @@ root.render(
   <React.StrictMode>
     <Nav />
     <main>
+        <div className="placeholder scroll-point" id="1"></div>
         <div className="container--main">
           <Summary />
           <Profile />
         </div>
-        <div className="container--tech-stack scroll-point">
+        <div className="container--tech-stack scroll-point" id="2">
           <div className="tech-stack--header">
             <h2 className="tech-stack--title">My Tech Stack</h2>
 
           </div>
         </div>
-        <div className="container--recent-work scroll-point">
+        <div className="container--recent-work scroll-point" id="3">
           <div className="recent-work--header">
             <h2 className="recent-work--title">Recent Work</h2>
           </div>
