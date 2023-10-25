@@ -9,11 +9,24 @@ import './css/Card.css';
 import './css/Nav.css';
 import './css/Summary.css';
 import './css/Profile.css';
+import './css/StackIcon.css';
 // Components
 import Nav from './components/Nav';
 import Card from './components/Card';
 import Summary from './components/Summary';
 import Profile from './components/Profile'
+import StackIcon from './components/StackIcon';
+// Tech stack Images
+import bootstrap from './images/techstack/bootstrap.png';
+import css from './images/techstack/css.png';
+import django from './images/techstack/django.png';
+import github from './images/techstack/github.png';
+import html from './images/techstack/html.png';
+import js from './images/techstack/js.png';
+import photoshop from './images/techstack/photoshop.png';
+import python from './images/techstack/python.png';
+import tensorflow from './images/techstack/tensorflow.png';
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -28,7 +41,24 @@ root.render(
         <div className="container--tech-stack scroll-point" id="2">
           <div className="tech-stack--header">
             <h2 className="tech-stack--title">My Tech Stack</h2>
-
+            <h3 className="tech-stack--sub-header">Languages</h3>
+            <div className="tech-stack--icons">
+              <StackIcon image={html} />
+              <StackIcon image={css} />
+              <StackIcon image={js} />
+              <StackIcon image={python} />
+            </div>
+            <h3 className="tech-stack--sub-header">Frameworks</h3>
+            <div className="tech-stack--icons">
+              <StackIcon image={bootstrap} />
+              <StackIcon image={django} />
+              <StackIcon image={tensorflow} />
+            </div>
+            <h3 className="tech-stack--sub-header">Tools</h3>
+            <div className="tech-stack--icons">
+              <StackIcon image={github} />
+              <StackIcon image={photoshop} />
+            </div>
           </div>
         </div>
         <div className="container--recent-work scroll-point" id="3">

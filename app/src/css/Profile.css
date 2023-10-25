@@ -1,6 +1,15 @@
 .profile {
-    background-image: url('../images/profile.png');
     background-size: cover;
     background-repeat: no-repeat;
     width: 50vw;
+}
+
+.normal {
+    background-image: url('../images/profile.png');
+    transition: all 0.3s ease-in-out;
+}
+
+.smile {
+    background-image: url('../images/profile_smile.png');
+    transition: all 0.3s ease-in-out;
 }

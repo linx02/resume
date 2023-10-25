@@ -4,6 +4,8 @@ import Card from './Card'
 // Images
 import projectHub from '../images/project_hub.png'
 import genderPredictor from '../images/gender_predictor.png'
+import profile from '../images/profile.png'
+import profileSmile from '../images/profile_smile.png'
 
 export default function Summary() {
 
@@ -14,6 +16,10 @@ export default function Summary() {
             backgroundColor: 'white',
             color: 'black'
         })
+        
+        const profile = document.querySelector('.profile')
+        profile.classList.remove('smile')
+        profile.classList.add('normal')
     }
 
     function mouseLeaveContact(event) {
@@ -23,6 +29,10 @@ export default function Summary() {
             backgroundColor: 'black',
             color: 'white'
         })
+
+        const profile = document.querySelector('.profile')
+        profile.classList.remove('smile')
+        profile.classList.add('normal')
     }
 
     function mouseOverCV(event) {
