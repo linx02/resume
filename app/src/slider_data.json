@@ -1,0 +1,30 @@
+[
+    {
+        "title": "Witches Brew",
+        "description": "Witches brew was created as a team project for the 'Phantom Forge' Halloween Hackathon by Code Institute. I created the majority of the game assets aswell as built the entire 'kitchen' aspect of the game from the html structure to the logic behind it. From the README.md: Witches Brew is a one player game against the computer. The player commences with a health level and levels of strength, agility and dexterity. As the game proceeds the player must fight off enemies that also have strength, agility and dexterity levels. Against any given enemy the player will lose health points as a fight proceeds if the player's strength, agility and dexterity combined are less than that of the opponent. If the player's health points reach zero the game is over! However the player also has access to ingredients for making potions. Different potions will affect the strength, agility and dexterity of the player or of the enemy thus affecting the players ability to win. Brew the right potions to stay alive, stay in the game and continue to beat your enemies!",
+        "image": "witches_brew.png",
+        "github": "https://github.com/Erikas-Ramanauskas/Project-Cauldron",
+        "live": "https://erikas-ramanauskas.github.io/Project-Cauldron/"
+    },
+    {
+        "title": "Gender Predictor",
+        "description": "This project was built as part of the Code Institute Full Stack Web Development course. It is my attempt at building an image classifier using convolutional neural networks. The project covers the entire process of building a machine learning model, from data collection and preparation to hyperparameter optimization, data augmentation, building and training the actual model. The model ended up having an accuracy of 93%!",
+        "image": "gender_predictor.png",
+        "github": "https://github.com/linx02/genderpredictor",
+        "live": "https://gender-predictor-88b0cafee78b.herokuapp.com/"
+    },
+    {
+        "title": "Project Hub",
+        "description": "This project was built as part of the Code Institute Full Stack Web Development course. The purpose of the project is to create a platform for developers to share their projects and to find other projects to get inspiration from. The project is built using Python, Django, PostgreSQL, Bootstrap, HTML, CSS and Javascript. It is deployed on Heroku and uses Cloudinary for image storage and is built using the CRUD (Create, Read, Update, Delete) methodology. From the README.md: Project Hub is a sharing platform mainly aimed at students of Code Institute looking to share their school projects and check out other students projects, but is open to everyone and all users are welcome.",
+        "image": "project_hub.png",
+        "github": "https://github.com/linx02/project-hub",
+        "live": "https://project-hub-0ecc1af6b9be.herokuapp.com/"
+    },
+    {
+        "title": "Inventory Management System",
+        "description": "Inventory Management System was built as part of the Code Institute Full Stack Web Development course. It is one of my earlier projects and the reason for this project roots in my previous job, where we used a very complex inventory management system for very simple tasks. I knew I could build a simpler but as effective of a solution and so I did!",
+        "image": "ims.png",
+        "github": "https://github.com/linx02/ims",
+        "live": "https://inventorymanagementsystem-86826be60536.herokuapp.com/"
+    }
+]

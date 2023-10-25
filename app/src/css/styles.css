@@ -28,3 +28,12 @@ body, html {
     scroll-snap-align: start; /* This will snap the start (top) of the container to the viewport */
     padding-top: 5rem;
 }
+
+.swiper-button-prev, .swiper-button-next {
+    color: white !important;
+    margin: 0rem 1rem !important;
+}
+
+.swiper-pagination-bullet {
+    background-color: white !important;
+}

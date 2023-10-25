@@ -10,12 +10,14 @@ import './css/Nav.css';
 import './css/Summary.css';
 import './css/Profile.css';
 import './css/StackIcon.css';
+import './css/Slider.css';
 // Components
 import Nav from './components/Nav';
 import Card from './components/Card';
 import Summary from './components/Summary';
 import Profile from './components/Profile'
 import StackIcon from './components/StackIcon';
+import Slider from './components/Slider';
 // Tech stack Images
 import bootstrap from './images/techstack/bootstrap.png';
 import css from './images/techstack/css.png';
@@ -26,11 +28,12 @@ import js from './images/techstack/js.png';
 import photoshop from './images/techstack/photoshop.png';
 import python from './images/techstack/python.png';
 import tensorflow from './images/techstack/tensorflow.png';
-
+// Slider data
+import sliderData from './slider_data.json';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
-  <React.StrictMode>
+  <div>
     <Nav />
     <main>
         <div className="placeholder scroll-point" id="1"></div>
@@ -65,10 +68,12 @@ root.render(
           <div className="recent-work--header">
             <h2 className="recent-work--title">Recent Work</h2>
           </div>
+          <Slider data={sliderData} />
         </div>
     </main>
-  </React.StrictMode>
+  </div>
 );
+console.log(<Slider data={sliderData}/>)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

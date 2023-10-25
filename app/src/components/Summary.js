@@ -65,8 +65,8 @@ export default function Summary() {
                 </div>
                 <h2 className="summary--projects-title">Top Projects</h2>
                 <div className='summary--cards'>
-                    <Card image={projectHub} title="Project Hub" description="Project Hub is a sharing platform mainly aimed at students of Code Institute looking to share their school projects and check out other students projects, but is open to everyone and all users are welcome." link="#"/>
-                    <Card image={genderPredictor} title="Gender predictor" description="An image classifier machine learning project for gender prediction utilizing convolutional neural networks (CNN)." link="#"/>
+                    <Card image={projectHub} title="Project Hub" description="Project Hub is a sharing platform mainly aimed at students of Code Institute looking to share their school projects and check out other students projects, but is open to everyone and all users are welcome." link="https://project-hub-0ecc1af6b9be.herokuapp.com/"/>
+                    <Card image={genderPredictor} title="Gender predictor" description="An image classifier machine learning project for gender prediction utilizing convolutional neural networks (CNN)." link="https://gender-predictor-88b0cafee78b.herokuapp.com/"/>
                 </div>
             </div>
         </div>
