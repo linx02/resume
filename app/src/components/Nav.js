@@ -44,6 +44,7 @@ export default function Nav() {
                 <a href="#"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Resume<div className="border"></div></li></a>
                 <a href="#2"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Tech Stack<div className="border"></div></li></a>
                 <a href="#3"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Recent Work<div className="border"></div></li></a>
+                <a href="#4"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Contact Me<div className="border"></div></li></a>
             </ul>
         </nav>
     )

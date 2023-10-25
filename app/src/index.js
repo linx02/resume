@@ -70,6 +70,12 @@ root.render(
           </div>
           <Slider data={sliderData} />
         </div>
+        <div className="container--contact scroll-point">
+          <div className="contact--header" id="4">
+            <h2 className="contact--title">Contact me</h2>
+          </div>
+
+        </div>
     </main>
   </div>
 );

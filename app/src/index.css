@@ -25,6 +25,18 @@
   background-color: black;
 }
 
+.container--contact {
+  height: 100vh;
+  background-color: black;
+}
+
+.contact--title {
+  font-size: 3rem;
+  color: white;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
 .tech-stack--title {
   font-size: 3rem;
   color: white;
