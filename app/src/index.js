@@ -63,6 +63,10 @@ root.render(
               <StackIcon image={photoshop} />
             </div>
           </div>
+          <div id="container--svg">
+              <dotlottie-player id="tech-stack--svg1" src="https://lottie.host/483654f2-3b9a-4f0b-809c-8afb6406a3d7/7awoLguslk.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+              <dotlottie-player id="tech-stack--svg2" src="https://lottie.host/d3d23b3e-dd79-4b0b-b20e-8644c9f0cba4/vkFHlX4B29.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+            </div>
         </div>
         <div className="container--recent-work scroll-point" id="3">
           <div className="recent-work--header">
@@ -74,7 +78,6 @@ root.render(
           <div className="contact--header" id="4">
             <h2 className="contact--title">Contact me</h2>
           </div>
-
         </div>
     </main>
   </div>

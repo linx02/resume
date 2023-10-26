@@ -1,3 +1,4 @@
+import React, { useEffect } from 'react'
 import { gsap } from 'gsap'
 import Card from './Card'
 
@@ -8,6 +9,28 @@ import profile from '../images/profile.png'
 import profileSmile from '../images/profile_smile.png'
 
 export default function Summary() {
+
+    useEffect(() => {
+        gsap.from('.summary--description', {
+            duration: 1,
+            ease: 'ease-out',
+            opacity: 0,
+            y: 15,
+        });
+
+        gsap.from('.summary--contact', {
+            duration: 2,
+            ease: 'ease-out',
+            opacity: 0,
+        });
+
+        gsap.from('.summary--cv', {
+            duration: 2,
+            ease: 'ease-out',
+            opacity: 0,
+        });
+
+    }, []);
 
     function mouseOverContact(event) {
         gsap.to('.summary--contact', {
@@ -56,9 +79,13 @@ export default function Summary() {
     return (
         <div className='summary'>
             <div className="summary--container">
-                <h1 className="summary--name">Linus Elvius</h1>
-                <h2 className="summary--title">Full Stack Developer</h2>
-                <p className="summary--description">Hi! I'm Linus, a passionate Full-Stack Web Developer with a deep love for crafting elegant and functional web solutions. As recently graduated from Code Institute, I am committed to creating exceptional digital experiences that not only meet but exceed the expectations of clients and end-users.</p>
+                <svg viewBox="0 0 1320 150">
+                    <text dy="1em" text-anchor="left">
+                        Linus Elvius
+                    </text>
+                </svg>
+                <h2 className="summary--title">Digital Craftsman</h2>
+                <p className="summary--description">Hello there! I'm Linus, a passionate Full-Stack Web Developer dedicated to creating elegant and functional web solutions. Freshly graduated from Code Institute, I'm wholeheartedly committed to delivering exceptional digital experiences that not only meet but surpass the expectations of clients and end-users.</p>
                 <div className="summary--cta">
                     <a href="#4" className="summary--contact" onMouseEnter={mouseOverContact} onMouseLeave={mouseLeaveContact}>Contact me</a>
                     <a href="#" className="summary--cv" onMouseEnter={mouseOverCV} onMouseLeave={mouseLeaveCV}>Download CV</a>

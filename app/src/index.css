@@ -18,6 +18,7 @@
   border-top: 3px solid var(--blue);
   display: flex;
   justify-content: center;
+  position: relative;
 }
 
 .container--recent-work {
@@ -70,4 +71,32 @@
 
 .swiper {
   height: 90%;
+}
+
+.tech-stack--header {
+  position: relative;
+}
+
+#container--svg {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+#tech-stack--svg1 {
+  height: 40%;
+  width: 40%;
+  margin-top: 7rem;
+  align-self: flex-start;
+}
+
+#tech-stack--svg2 {
+  height: 40%;
+  width: 40%;
+  margin-bottom: 7rem;
+  align-self: flex-end;
 }

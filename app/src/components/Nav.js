@@ -1,6 +1,23 @@
 import { gsap } from 'gsap';
+import React, { useEffect } from 'react';
 
 export default function Nav() {
+
+    useEffect(() => {
+        gsap.from('.nav--item', {
+            duration: 0.9,
+            ease: 'ease-out',
+            y: -150,
+        });
+
+        gsap.from('.nav--logo', {
+            duration: 0.9,
+            ease: 'ease-out',
+            scale: 0,
+            opacity: 0,
+        });
+    }, []);
+
     function mouseLogoOver() {
          gsap.to('.nav--logo', {
              duration: .5,
