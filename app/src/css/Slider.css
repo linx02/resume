@@ -52,6 +52,13 @@
     border: 1.75px solid white;
     border-radius: 2rem;
     margin-right: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.slide--cta a:hover {
+    cursor: pointer;
+    color: lightcoral;
+    border-color: lightcoral;
 }
 
 @keyframes pan {

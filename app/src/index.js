@@ -34,6 +34,12 @@ import python from './images/techstack/python.png';
 import tensorflow from './images/techstack/tensorflow.png';
 import react from './images/techstack/react.png';
 import vscode from './images/techstack/vscode.png';
+// Images
+import diploma from './images/diploma.png';
+import harvardai from './images/harvardai.png';
+import reactcourse from './images/reactcourse.png';
+import leetcode from './images/leetcode.png';
+import hackathon from './images/hackathon.png';
 // Slider data
 import sliderData from './slider_data.json';
 
@@ -107,8 +113,34 @@ root.render(
           </div>
           <Slider data={sliderData} />
         </div>
+        <div className="container--merits scroll-point" id="4">
+          <div className="merits--header">
+            <h2 className="merits--title">Merits</h2>
+          </div>
+          <div className="merits--container">
+            <div className="merits--micro">
+              <div className="merit">
+                <h3 className="merits--sub-header">React 12 Hour Course</h3>
+                <img src={reactcourse} alt="" />
+              </div>
+              <div className="merit">
+                <h3 className="merits--sub-header">Harvard CS50's AI with Python</h3>
+                <img src={harvardai} alt="" />
+              </div>
+              <div className="merit">
+                <h3 className="merits--sub-header">50+ LeetCode problems solved</h3>
+                <img src={leetcode} alt="" />
+              </div>
+              <div className="merit">
+                <h3 className="merits--sub-header">CI Hackathon Participation</h3>
+                <img src={hackathon} alt="" />
+              </div>
+            </div>
+            <img className="diploma" src={diploma} alt="Code Institute - Full stack software development diploma" />
+          </div>
+        </div>
         <div className="container--contact scroll-point">
-          <div className="contact--header" id="4">
+          <div className="contact--header" id="5">
             <h2 className="contact--title">Contact me</h2>
           </div>
         </div>
