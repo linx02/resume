@@ -2,6 +2,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+
+import { gsap } from 'gsap';
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
 // CSS
 import './css/styles.css';
 import './index.css';
@@ -28,8 +32,35 @@ import js from './images/techstack/js.png';
 import photoshop from './images/techstack/photoshop.png';
 import python from './images/techstack/python.png';
 import tensorflow from './images/techstack/tensorflow.png';
+import react from './images/techstack/react.png';
+import vscode from './images/techstack/vscode.png';
 // Slider data
 import sliderData from './slider_data.json';
+
+document.addEventListener('DOMContentLoaded', () => {
+  gsap.registerPlugin(ScrollTrigger);
+  gsap.from('.stack-icon', {
+    duration: 0.9,
+    ease: 'ease-out',
+    y: 15,
+    opacity: 0,
+    stagger: 0.1,
+    scrollTrigger: {
+        trigger: '.stack-icon',
+        start: 'top bottom-=100',
+        toggleActions: 'play reset play reset',
+    }});
+    gsap.from('#container--svg', {
+      duration: 2,
+      ease: 'ease-out',
+      y: 15,
+      opacity: 0,
+      scrollTrigger: {
+          trigger: '.stack-icon',
+          start: 'top bottom-=100',
+          toggleActions: 'play reset play reset',
+      }});
+});
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -53,6 +84,7 @@ root.render(
             </div>
             <h3 className="tech-stack--sub-header">Frameworks</h3>
             <div className="tech-stack--icons">
+            <StackIcon image={react} />
               <StackIcon image={bootstrap} />
               <StackIcon image={django} />
               <StackIcon image={tensorflow} />
@@ -61,6 +93,7 @@ root.render(
             <div className="tech-stack--icons">
               <StackIcon image={github} />
               <StackIcon image={photoshop} />
+              <StackIcon image={vscode} />
             </div>
           </div>
           <div id="container--svg">
