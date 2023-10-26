@@ -103,8 +103,8 @@ root.render(
             </div>
           </div>
           <div id="container--svg">
-              <dotlottie-player id="tech-stack--svg1" src="https://lottie.host/483654f2-3b9a-4f0b-809c-8afb6406a3d7/7awoLguslk.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
-              <dotlottie-player id="tech-stack--svg2" src="https://lottie.host/d3d23b3e-dd79-4b0b-b20e-8644c9f0cba4/vkFHlX4B29.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+              <dotlottie-player id="tech-stack--svg1" src="https://lottie.host/27071cbc-0405-43ea-851b-9cdd5d2c93a3/a29IR4WVvB.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
+              <dotlottie-player id="tech-stack--svg2" src="https://lottie.host/bf1fd2d5-9d1b-4369-bddb-e3676ba8ef63/XVEYjz8peV.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
             </div>
         </div>
         <div className="container--recent-work scroll-point" id="3">

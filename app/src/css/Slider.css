@@ -3,13 +3,22 @@
     width: 100vw;
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-image: url('../images/sliderbg.png');
+    background-position-x: -8vw;
+    background-repeat: no-repeat;
+    background-size: contain;
 }
 
 .slide--info {
+    padding: 2rem 2rem;
     color: white;
     width: 100%;
+    height: max-content;
     margin: 2rem 5rem;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* box shadow large */
+    box-shadow: 0 0px 500px 100px rgba(0, 0, 0, 1);
+    border-radius: 5%;
 }
 
 .slide--img {
