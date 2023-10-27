@@ -5,8 +5,6 @@ import Card from './Card'
 // Images
 import projectHub from '../images/project_hub.png'
 import genderPredictor from '../images/gender_predictor.png'
-import profile from '../images/profile.png'
-import profileSmile from '../images/profile_smile.png'
 
 export default function Summary() {
 

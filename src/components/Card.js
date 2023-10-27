@@ -21,7 +21,7 @@ export default function Card(props) {
     return (
         <a href={props.link} className="card--link" target="_blank">
             <div className='card' onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>
-                <img src={props.image} alt="Card image" className="card--img" />
+                <img src={props.image} alt="Card" className="card--img" />
                 <div className="card--content">
                     <h3 className="card--title">{props.title}</h3>
                     <p className="card--description">{props.description}</p>

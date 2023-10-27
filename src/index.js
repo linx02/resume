@@ -8,7 +8,6 @@ import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 // CSS
 import './css/styles.css';
-import './index.css';
 import './css/Card.css';
 import './css/Nav.css';
 import './css/Summary.css';
@@ -16,9 +15,9 @@ import './css/Profile.css';
 import './css/StackIcon.css';
 import './css/Slider.css';
 import './css/ContactForm.css';
+import './index.css';
 // Components
 import Nav from './components/Nav';
-import Card from './components/Card';
 import Summary from './components/Summary';
 import Profile from './components/Profile'
 import StackIcon from './components/StackIcon';
@@ -46,8 +45,8 @@ import wine from './images/wine.png';
 // Slider data
 import sliderData from './slider_data.json';
 
+gsap.registerPlugin(ScrollTrigger);
 document.addEventListener('DOMContentLoaded', () => {
-  gsap.registerPlugin(ScrollTrigger);
   gsap.from('.stack-icon', {
     duration: 0.9,
     ease: 'ease-out',
