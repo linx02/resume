@@ -47,6 +47,14 @@
     font-size: 3rem;
     font-weight: 500;
     margin-bottom: 1rem;
+    border-bottom: 2px solid white;
+}
+
+.slide--description {
+    font-size: .9rem;
+    font-weight: 300;
+    color: rgb(209, 209, 209);
+    margin-bottom: 1rem;
 }
 
 .slide--cta {
@@ -56,7 +64,6 @@
 .slide--cta a {
     text-decoration: none;
     color: white;
-    background-color: black;
     padding: .75rem;
     border: 1.75px solid white;
     border-radius: 2rem;
@@ -66,8 +73,9 @@
 
 .slide--cta a:hover {
     cursor: pointer;
-    color: lightcoral;
-    border-color: lightcoral;
+    color: black;
+    border-color: black;
+    background-color: white;
 }
 
 @keyframes pan {

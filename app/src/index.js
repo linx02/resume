@@ -15,6 +15,7 @@ import './css/Summary.css';
 import './css/Profile.css';
 import './css/StackIcon.css';
 import './css/Slider.css';
+import './css/ContactForm.css';
 // Components
 import Nav from './components/Nav';
 import Card from './components/Card';
@@ -22,6 +23,7 @@ import Summary from './components/Summary';
 import Profile from './components/Profile'
 import StackIcon from './components/StackIcon';
 import Slider from './components/Slider';
+import ContactForm from './components/ContactForm';
 // Tech stack Images
 import bootstrap from './images/techstack/bootstrap.png';
 import css from './images/techstack/css.png';
@@ -40,6 +42,7 @@ import harvardai from './images/harvardai.png';
 import reactcourse from './images/reactcourse.png';
 import leetcode from './images/leetcode.png';
 import hackathon from './images/hackathon.png';
+import wine from './images/wine.png';
 // Slider data
 import sliderData from './slider_data.json';
 
@@ -73,12 +76,12 @@ root.render(
   <div>
     <Nav />
     <main>
-        <div className="placeholder scroll-point" id="1"></div>
+        <div className="placeholder scroll-point" id="landing-page"></div>
         <div className="container--main">
           <Summary />
           <Profile />
         </div>
-        <div className="container--tech-stack scroll-point" id="2">
+        <div className="container--tech-stack scroll-point">
           <div className="tech-stack--header">
             <h2 className="tech-stack--title">My Tech Stack</h2>
             <h3 className="tech-stack--sub-header">Languages</h3>
@@ -107,13 +110,13 @@ root.render(
               <dotlottie-player id="tech-stack--svg2" src="https://lottie.host/bf1fd2d5-9d1b-4369-bddb-e3676ba8ef63/XVEYjz8peV.json" background="transparent" speed="1" loop autoplay></dotlottie-player>
             </div>
         </div>
-        <div className="container--recent-work scroll-point" id="3">
+        <div className="container--recent-work scroll-point" id="recent-work">
           <div className="recent-work--header">
             <h2 className="recent-work--title">Recent Work</h2>
           </div>
           <Slider data={sliderData} />
         </div>
-        <div className="container--merits scroll-point" id="4">
+        <div className="container--merits scroll-point" id="merits">
           <div className="merits--header">
             <h2 className="merits--title">Merits</h2>
           </div>
@@ -140,8 +143,16 @@ root.render(
           </div>
         </div>
         <div className="container--contact scroll-point">
-          <div className="contact--header" id="5">
+          <div className="contact--header" id="contact-me">
             <h2 className="contact--title">Contact me</h2>
+          </div>
+          <div className="contactform--container">
+            <ContactForm />
+          </div>
+          <div className="container--thanks">
+            <h2>Thank you for reaching out</h2>
+            <h3>Here's a digital bottle of wine to get us off on a positive note:</h3>
+            <img src={wine} alt="Bottle of wine" id="wine"/>
           </div>
         </div>
     </main>

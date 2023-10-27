@@ -179,3 +179,9 @@
   justify-content: center;
   align-items: center;
 }
+
+.container--contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
