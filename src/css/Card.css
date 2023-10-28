@@ -2,7 +2,9 @@
     width: 16vw;
     border-radius: 2rem;
     overflow: hidden;
-    background-color: var(--blue);
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
 }
 
 .card--img {
@@ -21,7 +23,7 @@
     margin: 0.5rem;
     font-size: 0.75rem;
     font-weight: 300;
-    color: gray;
+    color: white;
     margin-top: 0.5rem;
     height: 2rem;
     width: 90%;
