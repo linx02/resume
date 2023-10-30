@@ -121,22 +121,30 @@ root.render(
           </div>
           <div className="merits--container">
             <div className="merits--micro">
-              <div className="merit">
-                <h3 className="merits--sub-header">React 12 Hour Course</h3>
-                <img src={reactcourse} alt="" />
-              </div>
-              <div className="merit">
-                <h3 className="merits--sub-header">Harvard CS50's AI with Python</h3>
-                <img src={harvardai} alt="" />
-              </div>
-              <div className="merit">
-                <h3 className="merits--sub-header">50+ LeetCode problems solved</h3>
-                <img src={leetcode} alt="" />
-              </div>
-              <div className="merit">
-                <h3 className="merits--sub-header">CI Hackathon Participation</h3>
-                <img src={hackathon} alt="" />
-              </div>
+              <a target="_blank" href="https://www.youtube.com/watch?v=bMknfKXIFA8&t=16680s">
+                <div className="merit">
+                  <h3 className="merits--sub-header">React 12 Hour Course <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                  <img src={reactcourse} alt="Thumbnail" />
+                </div>
+              </a>
+              <a target="_blank" href="https://www.youtube.com/watch?v=5NgNicANyqM">
+                <div className="merit">
+                  <h3 className="merits--sub-header">Harvard CS50's AI with Python <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                  <img src={harvardai} alt="Thumbnail" />
+                </div>
+              </a>
+              <a target="_blank" href="https://github.com/linx02/leetcode-solutions">
+                <div className="merit">
+                  <h3 className="merits--sub-header">My LeetCode Solutions <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                  <img src={leetcode} alt="Thumbnail" />
+                </div>
+              </a>
+              <a target="_blank" href="https://hackathon.codeinstitute.net/teams/352/">
+                <div className="merit">
+                  <h3 className="merits--sub-header">CI Hackathon Participation <i class="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                  <img src={hackathon} alt="Thumbnail" />
+                </div>
+              </a>
             </div>
             <img className="diploma" src={diploma} alt="Code Institute - Full stack software development diploma" />
           </div>
