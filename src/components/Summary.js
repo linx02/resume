@@ -86,7 +86,7 @@ export default function Summary() {
                 <p className="summary--description">Hello there! I'm Linus, a passionate Full-Stack Web Developer dedicated to creating elegant and functional web solutions. Freshly graduated from Code Institute, I'm wholeheartedly committed to delivering exceptional digital experiences that not only meet but surpass the expectations of clients and end-users.</p>
                 <div className="summary--cta">
                     <a href="#contact-me" className="summary--contact" onMouseEnter={mouseOverContact} onMouseLeave={mouseLeaveContact}>Contact Me <i class="fa-regular fa-envelope"></i></a>
-                    <a href="#" className="summary--cv" onMouseEnter={mouseOverCV} onMouseLeave={mouseLeaveCV}>Download CV <i class="fa-solid fa-file-pdf"></i></a>
+                    <a target="_blank" href="/CV.pdf" className="summary--cv" onMouseEnter={mouseOverCV} onMouseLeave={mouseLeaveCV}>Download CV <i class="fa-solid fa-file-pdf"></i></a>
                 </div>
                 <h2 className="summary--projects-title">Top Projects</h2>
                 <div className='summary--cards'>

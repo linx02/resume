@@ -287,3 +287,24 @@
   }
 
 }
+
+.socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+
+.socials a {
+  color: white;
+  filter: drop-shadow(0 0 0.75rem black);
+}
+
+.socials a:hover {
+  cursor: pointer;
+}
+
+.socials i {
+  padding: 0 .5rem;
+}

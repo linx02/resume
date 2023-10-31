@@ -161,6 +161,10 @@ root.render(
             <h3>Here's a digital bottle of wine to get us off on a positive note:</h3>
             <img src={wine} alt="Bottle of wine" id="wine"/>
           </div>
+          <div class="socials">
+            <a target="_blank" href="https://github.com/linx02"><i class="fa-brands fa-github fa-2xl"></i></a>
+            <a target="_blank" href="https://linkedin.com/in/linus-elvius-52b098266/"><i class="fa-brands fa-linkedin fa-2xl"></i></a>
+          </div>
         </div>
     </main>
   </div>
