@@ -5,6 +5,7 @@ export default function Profile() {
     const [profile, setProfile] = React.useState('normal');
     useEffect(() => {
         const contactBtn = document.querySelector('.summary--contact');
+        const contactBtnNav = document.querySelector('.contact-nav');
 
         const handleMouseEnter = () => setProfile('smile');
         const handleMouseLeave = () => setProfile('normal');
@@ -12,6 +13,8 @@ export default function Profile() {
         if (contactBtn) {
             contactBtn.addEventListener('mouseenter', handleMouseEnter);
             contactBtn.addEventListener('mouseleave', handleMouseLeave);
+            contactBtnNav.addEventListener('mouseenter', handleMouseEnter);
+            contactBtnNav.addEventListener('mouseleave', handleMouseLeave);
         }
 
         // Cleanup function: remove event listeners when component is unmounted

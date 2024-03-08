@@ -58,10 +58,9 @@ export default function Nav() {
         <nav>
             <ul>
                 <a href="#landing-page"><li className='nav--logo' onMouseEnter={mouseLogoOver} onMouseLeave={mouseLogoLeave}>Linus</li></a>
-                {/* <a href="#"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Download CV <i class="fa-regular fa-file fa-sm"></i><div className="border"></div></li></a> */}
                 <a href="#recent-work"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Recent Work <i class="fa-solid fa-laptop-code fa-sm"></i><div className="border"></div></li></a>
                 <a href="#merits"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Merits <i class="fa-solid fa-award fa-sm"></i><div className="border"></div></li></a>
-                <a href="#contact-me"><li className='nav--item'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Contact Me <i class="fa-regular fa-envelope fa-sm"></i><div className="border"></div></li></a>
+                <a href="#contact-me"><li className='nav--item contact-nav'onMouseEnter={mouseOver} onMouseLeave={mouseLeave}>Contact Me <i class="fa-regular fa-envelope fa-sm"></i><div className="border"></div></li></a>
             </ul>
         </nav>
     )
