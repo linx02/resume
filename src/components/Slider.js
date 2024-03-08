@@ -33,7 +33,7 @@ export default function Slider(props) {
                             </div>
                         </div>
                         <div className="slide--preview">
-                            <img src={process.env.PUBLIC_URL + '/images/' + item.image} alt="Slide preview" className="slide--img" />
+                            <img src={process.env.PUBLIC_URL + '/images/projects/' + item.image} alt="Slide preview" className="slide--img" />
                         </div>
                     </div>
                 </SwiperSlide>

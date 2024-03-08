@@ -3,14 +3,14 @@
   width: 100vw;
   display: flex;
   justify-content: center;
-  background-image: url('./images/bg4.png');
+  background-image: url('../public/images/bg/bg4.png');
   background-position: top;
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 .container--tech-stack {
-  background-image: url('./images/techstackbackground.png');
+  background-image: url('../public/images/bg/techstackbackground.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,14 +28,14 @@
 
 .container--merits {
   height: 100vh;
-  background: url('./images/meritsbackground.png');
+  background: url('../public/images/bg/meritsbackground.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: top;
 }
 
 .container--contact {
-  background-image: url('./images/bgcontact.png');
+  background-image: url('../public/images/bg/bgcontact.png');
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
