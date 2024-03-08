@@ -25,6 +25,6 @@
         "description": "Inventory Management System was built as part of the Code Institute Full Stack Web Development course. It is one of my earlier projects and the reason for this project roots in my previous job, where we used a very complex inventory management system for very simple tasks. I knew I could build a simpler but as effective of a solution and so I did!",
         "image": "ims.png",
         "github": "https://github.com/linx02/ims",
-        "live": "https://inventorymanagementsystem-86826be60536.herokuapp.com/"
+        "live": null
     }
 ]
