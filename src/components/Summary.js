@@ -74,15 +74,15 @@ export default function Summary() {
         <div className='summary'>
             <div className="summary--container">
                 <svg viewBox="0 0 1320 150">
-                    <text dy="1em" text-anchor="left">
+                    <text dy="1em" textAnchor="left">
                         Linus Elvius
                     </text>
                 </svg>
                 <h2 className="summary--title">Digital Craftsman</h2>
-                <p className="summary--description">Hello there! I'm Linus, a passionate Full-Stack Web Developer dedicated to creating elegant and functional web solutions. Freshly graduated from Code Institute, I'm wholeheartedly committed to delivering exceptional digital experiences that not only meet but surpass the expectations of clients and end-users.</p>
+                <p className="summary--description">Hello! I'm Linus, a passionate Software Developer with a broad skill set spanning both front-end and back-end technologies. Proficient in creating user-centric solutions, I leverage my versatile expertise to bring ideas to life. Let's connect and explore how my skills can contribute to your next endeavor.</p>
                 <div className="summary--cta">
-                    <a href="#contact-me" className="summary--contact" onMouseEnter={mouseOverContact} onMouseLeave={mouseLeaveContact}>Contact Me <i class="fa-regular fa-envelope"></i></a>
-                    <a target="_blank" href="/CV.pdf" className="summary--cv" onMouseEnter={mouseOverCV} onMouseLeave={mouseLeaveCV}>Download CV <i class="fa-solid fa-file-pdf"></i></a>
+                    <a href="#contact-me" className="summary--contact" onMouseEnter={mouseOverContact} onMouseLeave={mouseLeaveContact}>Contact Me <i className="fa-regular fa-envelope"></i></a>
+                    <a target="_blank" href="/CV.pdf" className="summary--cv" onMouseEnter={mouseOverCV} onMouseLeave={mouseLeaveCV}>Download CV <i className="fa-solid fa-file-pdf"></i></a>
                 </div>
                 <h2 className="summary--projects-title">Top Projects</h2>
                 <div className='summary--cards'>

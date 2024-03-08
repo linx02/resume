@@ -53,7 +53,7 @@ export default function ContactForm() {
       <input id="email" name="from_name" type="email" placeholder="Email" value={formData.email} onChange={handleChange} />
       <label htmlFor="message">Message:</label>
       <textarea id="message" name="message" placeholder="Message" value={formData.message} onChange={handleChange} />
-      <button type="submit">Submit <i class="fa-solid fa-paper-plane"></i></button>
+      <button type="submit">Submit <i className="fa-solid fa-paper-plane"></i></button>
     </form>
   );
 }

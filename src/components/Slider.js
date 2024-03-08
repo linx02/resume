@@ -18,8 +18,6 @@ export default function Slider(props) {
         navigation
         pagination={{ clickable: true }}
         scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
         >
             {props.data.map((item, index) => (
                 <SwiperSlide key={index}>
@@ -28,11 +26,11 @@ export default function Slider(props) {
                             <h2 className="slide--title">{item.title}</h2>
                             <p className="slide--description">{item.description}</p>
                             <div className="slide--cta">
-                                <a href={item.github} className="slide--github" target="_blank">View on <i class="fa-brands fa-github fa-xl"></i></a>
+                                <a href={item.github} className="slide--github" target="_blank">View on <i className="fa-brands fa-github fa-xl"></i></a>
                                 {
                                 item.live ?
-                                <a href={item.live} className="slide--live" target="_blank">View live <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
-                                : <a href={item.live} className="slide--liv link-inactive" target="_blank">View live <i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>}
+                                <a href={item.live} className="slide--live" target="_blank">View live <i className="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+                                : <a href={item.live} className="slide--liv link-inactive" target="_blank">View live <i className="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>}
                             </div>
                         </div>
                         <div className="slide--preview">
