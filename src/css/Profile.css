@@ -5,11 +5,11 @@
 }
 
 .normal {
-    background-image: url('../images/profile.png');
+    background-image: url('../../public/images/other/profile.png');
     transition: all 0.3s ease-in-out;
 }
 
 .smile {
-    background-image: url('../images/profile_smile.png');
+    background-image: url('../../public/images/other/profile_smile.png');
     transition: all 0.3s ease-in-out;
 }
