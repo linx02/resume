@@ -80,8 +80,10 @@ export default function App() {
                 <h3 className="tech-stack--sub-header">Frameworks</h3>
                 <div className="tech-stack--icons">
                 <StackIcon image={'/images/techstack/react.png'} />
-                <StackIcon image={'/images/techstack/bootstrap.png'} />
+                <StackIcon image={'/images/techstack/next.png'} />
+                <StackIcon image={'/images/techstack/tailwind.png'} />
                 <StackIcon image={'/images/techstack/django.png'} />
+                <StackIcon image={'/images/techstack/flask.png'} />
                 <StackIcon image={'/images/techstack/tensorflow.png'} />
                 </div>
                 <h3 className="tech-stack--sub-header">Tools</h3>
@@ -89,6 +91,8 @@ export default function App() {
                 <StackIcon image={'/images/techstack/github.png'} />
                 <StackIcon image={'/images/techstack/photoshop.png'} />
                 <StackIcon image={'/images/techstack/vscode.png'} />
+                <StackIcon image={'/images/techstack/figma.png'} />
+                <StackIcon image={'/images/techstack/atlassian.png'} />
                 </div>
             </div>
             <div id="container--svg">
@@ -104,14 +108,14 @@ export default function App() {
             </div>
             <div className="container--merits scroll-point" id="merits">
             <div className="merits--header">
-                <h2 className="merits--title">Merits</h2>
+                <h2 className="merits--title">Merits & Certifications</h2>
             </div>
             <div className="merits--container">
                 <div className="merits--micro">
-                <a target="_blank" href="https://www.youtube.com/watch?v=bMknfKXIFA8&t=16680s">
+                <a target="_blank" href="https://www.freecodecamp.org/certification/linx02/foundational-c-sharp-with-microsoft">
                     <div className="merit">
-                    <h3 className="merits--sub-header">React 12 Hour Course <i className="fa-solid fa-arrow-up-right-from-square"></i></h3>
-                    <img src={'/images/other/reactcourse.png'} alt="Thumbnail" />
+                    <h3 className="merits--sub-header">Foundational C# - Microsoft <i className="fa-solid fa-arrow-up-right-from-square"></i></h3>
+                    <img src={'/images/other/foundationalcsharp.png'} alt="Thumbnail" />
                     </div>
                 </a>
                 <a target="_blank" href="https://www.youtube.com/watch?v=5NgNicANyqM">
@@ -126,7 +130,7 @@ export default function App() {
                     <img src={'/images/other/leetcode.png'} alt="Thumbnail" />
                     </div>
                 </a>
-                <a target="_blank" href="https://hackathon.codeinstitute.net/teams/352/">
+                <a target="_blank" href="https://eu.badgr.com/public/assertions/WA-0oTSnR_-G1KqhU98zjw?identity__email=elvius.linus@gmail.com">
                     <div className="merit">
                     <h3 className="merits--sub-header">CI Hackathon Participation <i className="fa-solid fa-arrow-up-right-from-square"></i></h3>
                     <img src={'/images/other/hackathon.png'} alt="Thumbnail" />
