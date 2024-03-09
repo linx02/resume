@@ -1,38 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f656af2.css",
-    "main.js": "/static/js/main.f9616083.js",
-    "static/js/787.f09be747.chunk.js": "/static/js/787.f09be747.chunk.js",
+    "main.css": "/static/css/main.1a5723ea.css",
+    "main.js": "/static/js/main.f800b61a.js",
     "static/media/sliderbg.png": "/static/media/sliderbg.b274992d40c6826b3fcd.png",
     "static/media/meritsbackground.png": "/static/media/meritsbackground.93f9f8a334b7acf0d209.png",
     "static/media/techstackbackground.png": "/static/media/techstackbackground.7e9d9f4bbc4d02e802d9.png",
     "static/media/bg4.png": "/static/media/bg4.2e0a2c22d00c6030692b.png",
     "static/media/profile_smile.png": "/static/media/profile_smile.010f6cb78a6899ef42d2.png",
-    "static/media/harvardai.png": "/static/media/harvardai.9a32b0314b09ee16addf.png",
     "static/media/profile.png": "/static/media/profile.9556d61a3cbfbc120536.png",
     "static/media/bgcontact.png": "/static/media/bgcontact.84fa8d19b3aaac9f49dc.png",
-    "static/media/gender_predictor.png": "/static/media/gender_predictor.0877f675b68bf30ef2a1.png",
-    "static/media/project_hub.png": "/static/media/project_hub.b3fcdb7c87af9b1b84b6.png",
-    "static/media/diploma.png": "/static/media/diploma.bcb77c59f2793e7cd658.png",
-    "static/media/wine.png": "/static/media/wine.d65fcea3f3be109ebc75.png",
-    "static/media/leetcode.png": "/static/media/leetcode.3f413b2e300c58ffae8f.png",
-    "static/media/reactcourse.png": "/static/media/reactcourse.7b9571b336c316f0ae3d.png",
-    "static/media/hackathon.png": "/static/media/hackathon.0bf776a85fcd30029887.png",
-    "static/media/react.png": "/static/media/react.0a8de5848b763f7c6170.png",
-    "static/media/photoshop.png": "/static/media/photoshop.13d677e9b739c0a593b1.png",
-    "static/media/html.png": "/static/media/html.cf7df80cc89f896a6526.png",
-    "static/media/css.png": "/static/media/css.001d56df5eb2a20e26f6.png",
-    "static/media/github.png": "/static/media/github.0044287f2eccadbcf06e.png",
-    "static/media/bootstrap.png": "/static/media/bootstrap.6127880046c9c0fb5d2c.png",
-    "static/media/vscode.png": "/static/media/vscode.9ecbdbf8ec430c83a422.png",
-    "static/media/python.png": "/static/media/python.8e2233f47d2cd6e7b689.png",
     "index.html": "/index.html",
-    "main.8f656af2.css.map": "/static/css/main.8f656af2.css.map",
-    "main.f9616083.js.map": "/static/js/main.f9616083.js.map",
-    "787.f09be747.chunk.js.map": "/static/js/787.f09be747.chunk.js.map"
+    "main.1a5723ea.css.map": "/static/css/main.1a5723ea.css.map",
+    "main.f800b61a.js.map": "/static/js/main.f800b61a.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f656af2.css",
-    "static/js/main.f9616083.js"
+    "static/css/main.1a5723ea.css",
+    "static/js/main.f800b61a.js"
   ]
 }
