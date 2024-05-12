@@ -118,12 +118,12 @@ export default function App() {
                     <img src={'/images/other/foundationalcsharp.png'} alt="Thumbnail" />
                     </div>
                 </a>
-                <a target="_blank" href="https://www.youtube.com/watch?v=5NgNicANyqM">
+                {/* <a target="_blank" href="https://www.youtube.com/watch?v=5NgNicANyqM">
                     <div className="merit">
                     <h3 className="merits--sub-header">Harvard CS50's AI with Python <i className="fa-solid fa-arrow-up-right-from-square"></i></h3>
                     <img src={'/images/other/harvardai.png'} alt="Thumbnail" />
                     </div>
-                </a>
+                </a> */}
                 <a target="_blank" href="https://github.com/linx02/leetcode-solutions">
                     <div className="merit">
                     <h3 className="merits--sub-header">My LeetCode Solutions <i className="fa-solid fa-arrow-up-right-from-square"></i></h3>
