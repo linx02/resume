@@ -2,4 +2,4 @@
 
 ![Preview](resume.gif)
 
-## Live at: [linuselvius.com](https://linuselvius.com)
+## Live at: [v1.linuselvius.com](https://v1.linuselvius.com)
